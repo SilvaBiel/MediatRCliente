@@ -1,5 +1,6 @@
 ﻿namespace MediatorCliente.Application.Models
 {
+    using System;
     using System.ComponentModel.DataAnnotations;
         public class Cliente
         {
@@ -12,6 +13,6 @@
             public string ClienteEmail { get; set; } = string.Empty;
             public string ClienteCep { get; set; } = string.Empty;
             public long ClienteCPF { get; set; }
-        }
+    }
 
 }
